@@ -6,22 +6,25 @@
 
 .topnav a {
     float: left;
-    color: #fff;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: arial;
+    transition: .25s;
 }
 
 .topnav a:hover {
     background-color: #4D4BE0;
     color: black;
-    transition: .5s;
+    transition: .25s;
 }
 
 .topnav a.active {
     background-color: #E0C64C;
-    color: white;
+    color: black;
+    transition: .25s;
 }
 
 .topnav .icon {
