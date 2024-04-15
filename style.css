@@ -23,7 +23,13 @@
 
 .topnav a.active {
     background-color: #E0C64C;
-    color: black;
+    color: white;
+    transition: .25s;
+}
+
+.topnav a.active:hover {
+    background-color: #4D4BE0;
+    color: white;
     transition: .25s;
 }
 
