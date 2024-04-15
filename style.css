@@ -1,7 +1,7 @@
 .topnav {
-    background-color: ##0B098F;
+    background-color: #0B098F;
     overflow: hidden;
-    corner-radius: 10px;
+    border-radius: 10px;
 }
 
 .topnav a {
@@ -16,7 +16,7 @@
 .topnav a:hover {
     background-color: #4D4BE0;
     color: black;
-    transition: .5;
+    transition: .5s;
 }
 
 .topnav a.active {
