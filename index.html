@@ -7,23 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="topnav" id="myTopnav">
-        <a href="#index" class="active">Home</a>
-        <a href="#classes">Classes</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
+    <div class="topnav">
+        <button class="hamburger">
+            <img src="hamburger.png" alt="hamburger">
+        </button>
     </div>
 
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav"
-            }
-        }
-    </script>
+    <div class="sidebar">
+        <button class="sidebar_button">
+            <img src="hamburger.png" alt="icon">
+            <p>Text</p>
+        </button>
+    </div>
 </body>
 </html>
