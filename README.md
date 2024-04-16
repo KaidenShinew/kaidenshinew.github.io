@@ -4,4 +4,4 @@ A classroom website based on Google Classroom, focusing on improving the online 
 
 A personal project for a Digital Design class.
 
-To view the latest live preview, visit kaidenshinew.github.io
+To view the latest live preview, visit https://kaidenshinew.github.io
