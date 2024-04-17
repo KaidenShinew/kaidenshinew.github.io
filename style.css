@@ -40,22 +40,24 @@ body {
 
 .sidebar {
     width: 300px;
-    min-height: calc(100vh - 70px);
-    border-right: solid;
+    min-height: calc(100vh - 80px);
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: center;
+    border: solid;
     border-width: 1px;
     border-color: rgba(225, 225, 225, 0.75);
+    border-radius: 20px;
+    box-shadow: 2px 2px 1px rgba(225, 225, 225, 0.75);
 }
 
 .sidebar button {
     margin-top: 5px;
-    border-top-right-radius: 9999px;
-    border-bottom-right-radius: 9999px;
+    border-radius: 9999px;
     width: 290px;
     height: 40px;
     background-color: white;
     border: none;
-    align-items: center;
-    justify-content: center;
     text-align: left;
 }
 
