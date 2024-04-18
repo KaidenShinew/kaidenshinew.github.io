@@ -51,7 +51,7 @@ body {
 }
 
 #compact_sidebar {
-    width: 45px;
+    width: 50px;
     min-height: calc(100vh - 80px);
     margin-top: 5px;
     margin-left: 5px;
@@ -70,6 +70,8 @@ body {
     background-color: white;
     border: none;
     text-align: left;
+    transition: 200ms;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 #compact_sidebar button {
@@ -80,6 +82,8 @@ body {
     background-color: white;
     border: none;
     text-align: center;
+    transition: 200ms;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 #open_sidebar button:hover {
@@ -100,7 +104,7 @@ body {
 }
 
 #open_sidebar button img{
-    margin-left: 20px;
+    margin-left: 7px;
     margin-right: 15px;
 }
 
@@ -111,8 +115,10 @@ body {
 #open_sidebar button p {
     display: inline-block;
     vertical-align: middle;
+    
 }
 
 #compact_sidebar button p {
     display: none;
+    
 }
