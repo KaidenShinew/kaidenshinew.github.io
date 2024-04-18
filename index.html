@@ -8,16 +8,27 @@
 </head>
 <body>
     <div class="topnav">
-        <button class="hamburger">
+        <button class="hamburger" onclick="Update_Name()">
             <img src="hamburger.png" alt="hamburger">
         </button>
     </div>
 
-    <div class="sidebar">
+    <div class="sidebar" id="open_sidebar">
         <button class="sidebar_button">
             <img src="hamburger.png" alt="icon">
             <p>Text</p>
         </button>
     </div>
+
+    <script>
+        function Update_Name() {
+            if (document.getElementById("open_sidebar")) {
+                document.getElementById("open_sidebar").setAttribute("id", "compact_sidebar")
+            }
+            else {
+                document.getElementById("compact_sidebar").setAttribute("id", "open_sidebar")
+            }
+        }
+    </script>
 </body>
 </html>
