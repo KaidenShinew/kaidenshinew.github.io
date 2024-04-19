@@ -46,8 +46,7 @@ body {
     text-align: center;
     border-radius: 20px;
     box-shadow: 0 0 3px rgb(0 0 0 / 50%);
-    transition: 200ms;
-    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: 200ms cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 #compact_sidebar {
@@ -58,8 +57,7 @@ body {
     text-align: center;
     border-radius: 20px;
     box-shadow: 0 0 3px rgb(0 0 0 / 50%);
-    transition: 200ms;
-    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: 200ms cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 #open_sidebar button {
@@ -70,8 +68,7 @@ body {
     background-color: white;
     border: none;
     text-align: left;
-    transition: 200ms;
-    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: 200ms cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 #compact_sidebar button {
@@ -82,8 +79,7 @@ body {
     background-color: white;
     border: none;
     text-align: center;
-    transition: 200ms;
-    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: 200ms cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 #open_sidebar button:hover {
